@@ -117,9 +117,6 @@ blockquote {
 	font-size: 20px;
 	line-height: 27px;
 }
-.content-section__list-accent {
-	font-weight: bold;
-}
 .content-section__list {
 	display: flex;
 	flex-direction: column;
