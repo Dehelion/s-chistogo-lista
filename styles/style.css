@@ -1,10 +1,19 @@
 body {
 	margin: 0;
 	background-color: #1e1e1e;
-	font-family: "Inter Regular", "Arial", sans-serif;
+	font-family: 'Inter Regular', 'Arial', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
 	margin: 0;
 	padding: 0;
 }
@@ -14,14 +23,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	max-width: 360px;
 	margin: 0 auto;
 	padding-left: 20px;
-	padding-right: 20px
+	padding-right: 20px;
 }
 .content-section_theme_dark {
 	background-color: #000;
 	color: #fff;
 }
 .content-section_theme_bright {
-	background-color: #FEE42A;
+	background-color: #fee42a;
 	color: #000;
 }
 .header {
@@ -31,21 +40,15 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	flex-direction: row;
 	justify-content: space-between;
 }
-.header__logo {
-}
 .header__logo-image {
 	width: 78.453px;
 	height: 15.432px;
-}
-.header__menu {
 }
 .header__menu-list {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
 	row-gap: 12px;
-}
-.header__menu-item {
 }
 .header__menu-item_active {
 	text-decoration: none;
@@ -64,9 +67,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	background-position: 20px 25px;
 }
 .cover__title {
-	font-family: "EB Garamond Regular", "Arial", sans-serif;
+	font-family: 'EB Garamond Regular', 'Arial', sans-serif;
 	font-size: 72px;
-	line-height: 1; /* 72px */ 
+	line-height: 1;
 }
 .accent-span {
 	display: block;
@@ -85,29 +88,26 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .intro__heading {
 	padding-bottom: 24px;
 	color: #ccc;
-	line-height: 120%; /* 19.2px */ 
+	line-height: 120%; /* 19.2px */
 	display: flex;
 }
 .intro__heading time {
 	white-space: nowrap;
 }
-.intro__title {
-}
 .intro__main-text {
 	padding-bottom: 24px;
 	color: #f5f5f5;
-	line-height: 21.6px; /* 135% */ 
+	line-height: 21.6px;
 }
 .intro__main-text:last-child {
 	padding-bottom: 37px;
 }
-
 .reasons {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 .content-section__subtitle {
-	font-family: "EB Garamond Medium";
+	font-family: 'EB Garamond Medium';
 	font-size: 28px;
 	line-height: 115%; /* 32.2px */
 }
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	padding-top: 32px;
 	padding-bottom: 32px;
 	font-size: 20px;
-	line-height: 27px; /* 135% */ 
+	line-height: 27px;
 }
 .content-section__list-accent {
 	font-weight: bold;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 .content-section__list-item {
 	font-size: 16px;
-	line-height: 21.6px; /* 135% */ 
+	line-height: 21.6px;
 	margin-left: 15px;
 }
 .how-to {
@@ -137,8 +137,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 .cards-list {
 	list-style-type: none;
 	display: flex;
-  flex-direction: column;
-  row-gap: 32px;
+	flex-direction: column;
+	row-gap: 32px;
 }
 .card {
 	padding: 20px;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	row-gap: 8px;
 	border-radius: 38px;
 	font-size: 16px;
-	line-height: 135%; /* 21.6px */ 
+	line-height: 135%;
 }
 .card_theme_dark {
 	background-color: #343434;
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	height: 100px;
 }
 .card__author-name {
-	font-family: "Inter Bold";
+	font-family: 'Inter Bold';
 }
 .card__content {
 	display: flex;
@@ -172,18 +172,18 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	row-gap: 8px;
 }
 .card__title {
-	font-family: "EB Garamond Medium";
+	font-family: 'EB Garamond Medium';
 	font-size: 22px;
-	line-height: 135%; /* 29.7px */ 
+	line-height: 135%;
 }
 .card_theme_bright {
-	background-color: #FEE42A;
+	background-color: #fee42a;
 	color: #131313;
 }
 .footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-top: 1px solid #FEE42A;
+	border-top: 1px solid #fee42a;
 	display: flex;
 	justify-content: space-between;
 }
@@ -198,9 +198,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 	text-decoration: none;
 	color: #fff;
 	padding-right: 16px;
-	line-height: 125%; /* 17.5px */ 
+	line-height: 125%;
 }
 .footer__links a:last-child {
 	padding-right: 0;
 }
-
