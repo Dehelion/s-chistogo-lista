@@ -55,19 +55,18 @@ blockquote {
 	color: #fff;
 }
 .cover {
-	min-height: 235px;
-	width: 100%;
 	padding-top: 7px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	background-image: url('../images/cover.svg');
-	background-size: contain;
+	background-size: 95%;
 	background-repeat: no-repeat;
-	background-position: 20px 25px;
+	background-position: 20px 30px;
 }
 .cover__title {
 	font-family: 'EB Garamond Regular', 'Arial', sans-serif;
 	font-size: 72px;
 	line-height: 1;
+
 }
 .accent-span {
 	display: block;
@@ -78,9 +77,10 @@ blockquote {
 }
 .text-right {
 	display: inherit;
-	text-aling: right;
+	text-align: right;
 }
 .intro {
+	padding-top: 25px;
 	font-size: 16px;
 }
 .intro__heading {
@@ -88,6 +88,9 @@ blockquote {
 	color: #ccc;
 	line-height: 120%; /* 19.2px */
 	display: flex;
+}
+.intro__title {
+	font-size: 16px;
 }
 .intro__heading time {
 	white-space: nowrap;
@@ -105,7 +108,7 @@ blockquote {
 	padding-bottom: 40px;
 }
 .content-section__subtitle {
-	font-family: 'EB Garamond Medium';
+	font-family: 'EB Garamond Medium', 'Arial', sans-serif;;
 	font-size: 28px;
 	line-height: 115%; /* 32.2px */
 }
@@ -117,6 +120,7 @@ blockquote {
 }
 .content-section__list-accent {
 	font-weight: bold;
+	letter-spacing: 0.3px;
 }
 .content-section__list {
 	display: flex;
@@ -126,7 +130,7 @@ blockquote {
 .content-section__list-item {
 	font-size: 16px;
 	line-height: 21.6px;
-	margin-left: 15px;
+	margin-left: 16px;
 }
 .how-to {
 	padding-top: 40px;
@@ -144,7 +148,7 @@ blockquote {
 	flex-direction: column;
 	align-items: flex-start;
 	row-gap: 8px;
-	border-radius: 38px;
+	border-radius: 30px;
 	font-size: 16px;
 	line-height: 135%;
 }
@@ -155,24 +159,24 @@ blockquote {
 .card__author {
 	display: flex;
 	flex-direction: column;
-	row-gap: 8px;
+	row-gap: 3px;
 }
 .card__author-photo img {
 	width: 100px;
 	height: 100px;
 }
 .card__author-name {
-	font-family: 'Inter Bold';
+	font-family: 'Inter Bold', 'Arial', sans-serif;;
 }
 .card__content {
 	display: flex;
 	flex-direction: column;
-	row-gap: 8px;
+	row-gap: 6px;
 }
 .card__title {
-	font-family: 'EB Garamond Medium';
+	font-family: 'EB Garamond Medium', 'Arial', sans-serif;;
 	font-size: 22px;
-	line-height: 135%;
+	line-height: 138%;
 }
 .card_theme_bright {
 	background-color: #fee42a;
@@ -186,17 +190,19 @@ blockquote {
 	justify-content: space-between;
 }
 .footer__copy {
-	line-height: 135%; /* 21.6px */
+	line-height: 135%;
 }
 .footer__links {
+	list-style-type: none;
 	display: flex;
-	row-gap: 16px;
+	column-gap: 17px;
 }
 .footer__links a {
 	text-decoration: none;
 	color: #fff;
-	padding-right: 16px;
-	line-height: 125%;
+	font-size: 14px;
+	padding-right: 18px;
+	line-height: 160%;
 }
 .footer__links a:last-child {
 	padding-right: 0;
