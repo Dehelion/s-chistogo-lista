@@ -108,7 +108,7 @@ blockquote {
 	padding-bottom: 40px;
 }
 .content-section__subtitle {
-	font-family: 'EB Garamond Medium', 'Arial', sans-serif;;
+	font-family: 'EB Garamond Medium', 'Arial', sans-serif;
 	font-size: 28px;
 	line-height: 115%; /* 32.2px */
 }
@@ -174,7 +174,7 @@ blockquote {
 	row-gap: 6px;
 }
 .card__title {
-	font-family: 'EB Garamond Medium', 'Arial', sans-serif;;
+	font-family: 'EB Garamond Medium', 'Arial', sans-serif;
 	font-size: 22px;
 	line-height: 138%;
 }
