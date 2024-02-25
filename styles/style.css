@@ -191,8 +191,7 @@ blockquote {
 	border-radius: 30px;
 	padding: 20px;
 }
-.card__author {
-}
+
 .card__author-photo {
 	display: block;
 	width: 100px;
@@ -202,8 +201,7 @@ blockquote {
 	margin: 8px 0 0;
 	font-weight: 700;
 }
-.card__content {
-}
+
 .card__title {
 	margin: 8px auto;
 	font-family: 'EB Garamond', serif;
